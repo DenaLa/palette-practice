@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Go Get Some Art Practice Done.</title>
+        <style>
+            body, form {
+                margin: 0 auto;
+                max-width: 800px;
+                overflow-x: hidden;
+            }
+
+            fieldset {
+                display: flex;
+            }
+
+            input#topic {
+                flex-grow: 100;
+                margin: 0 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="search" method="get"/>
+            <img src="site-images/banner.png" alt="banner" />
+            <fieldset>
+                <label for="topic">Pick a Topic:</label>
+                <input id="topic" name="topic" type="text" />
+                <input type="submit" value="Search" />
+            </fieldset>
+    </body>
+</html>
